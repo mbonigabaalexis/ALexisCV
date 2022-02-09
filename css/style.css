@@ -1,11 +1,12 @@
 body{
-    background-color: #E5E5E5;
+    background-color: #f7ebeb;
+
     height:1000px;
 }
 
 .container{
     width:700px ;
-    height:122px;
+    height:1222px;
 
 }h2{
     color: gray;
@@ -16,6 +17,8 @@ body{
     height: 160px;
     width: 700px;
     display: flex;
+    top: 0;;
+    position: fixed;
 }
 .list{
     color:#FFFFFF;
@@ -73,23 +76,17 @@ body{
     
 }
 .main{
+   padding-top: 115px;
   width: 700px;
   height: 1000px;
   display: flex; 
   flex-direction:row;
-  overflow: scroll;
 }
-.work:hover{
-    text-decoration: overline;
-    color: blue;
 
-}
 .main_horizontal{
     width: 550px;
     height: 1000px;
     background-color:#FFFFFF;;
-    
-
 }
 .main_veltical{
     width:270px;
@@ -98,7 +95,7 @@ body{
 }
  .footer{
     width: 700px;
-    height:20px;
+    height:150px;
     background-color: #DD3535;
 } 
 
@@ -106,7 +103,6 @@ body{
 .work{
     color:#DD3535;
    margin-left: 43px;
-   
     font-weight:400;
     font-style: normal;
     font-size: 20px;
@@ -148,7 +144,7 @@ article{
    margin-left: 15px;
     font-weight:400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     line-height:23.86px;
 
 }
@@ -160,3 +156,44 @@ article{
 
 
 }
+.list:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.list-name:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.span:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.work:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.year:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+b:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.aside:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+.info:hover{
+    color: blue;
+    text-decoration: underline;
+
+}
+
